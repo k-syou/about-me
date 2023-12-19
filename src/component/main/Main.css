@@ -1,0 +1,15 @@
+#main {
+  margin-top: 70px;
+  background-color: #fffafa;
+}
+
+#main .title {
+  font-size: 30px;
+  padding: 10px 0;
+  border-bottom: 2px dashed gray;
+  border-top: 2px dashed gray;
+  text-align: center;
+  box-sizing: border-box;
+  color:rgb(92, 92, 255);
+  font-weight: 700;
+}

@@ -1,0 +1,55 @@
+.skill-box {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.skill-box .skill-type {
+  width: 37%;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-weight: 600;
+  line-height: 35px;
+  border-right: 4px double rgba(137, 137, 137, .5);
+}
+.skill-box .skill-items {
+  margin-left: 30px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-box .skill-items .skill-item{
+  font-size: 18px;
+  font-weight: 600;
+  width: 33%;
+  box-sizing: border-box;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.skill-box .skill-items .skill-item .badge {
+  border-radius: 37%;
+  color: white;
+}
+.skill-box .skill-items .skill-item .badge.s1,
+.skill-box .skill-items .skill-item .badge.s2,
+.skill-box .skill-items .skill-item .badge.s3 {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 21px;
+  margin-right: 5px;
+}
+.skill-box .skill-items .skill-item .badge.s1 {
+  background-color: rgb(200, 200, 255);
+}
+.skill-box .skill-items .skill-item .badge.s2 {
+  background-color: rgb(146, 146, 255);
+}
+.skill-box .skill-items .skill-item .badge.s3 {
+  background-color: rgb(58, 58, 176);
+}

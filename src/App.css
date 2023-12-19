@@ -1,0 +1,17 @@
+.App a {
+  color:rgb(92, 92, 255);
+  text-decoration: none;
+}
+.App a:visited {
+  color:rgb(92, 92, 255);
+}
+.inner {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  color: #444548;
+}
+b.red {
+  color: red;
+  font-weight: 700;
+}

@@ -1,0 +1,10 @@
+#footer {
+  background-color: #fffdfd;
+  font-family: 'SUIT', sans-serif;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 23px;
+}
