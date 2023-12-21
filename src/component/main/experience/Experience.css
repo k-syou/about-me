@@ -1,5 +1,42 @@
 #experience {
   padding-top: 10px;
   font-family: 'SUIT', sans-serif;
-  height: 500px;
+}
+#experience .experience-box {
+  margin: 30px 0;
+}
+#experience .experience-box .experience-item {
+  display: flex;
+}
+#experience .experience-box .experience-item .exp-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+#experience .experience-box .experience-item .exp-header .company-name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#experience .experience-box .experience-item .exp-header .logo {
+  margin-bottom: 10px;
+}
+#experience .experience-box .experience-item .exp-header .tenure{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #999;
+}
+#experience .experience-box .experience-item .exp-header .descript{
+  color: #333;
+}
+
+#experience .experience-box .experience-item .works{
+  list-style-type: circle;
+  font-size: 20px;
+}
+#experience .experience-box .experience-item .works .work-item{
+  margin-bottom: 5px;
 }

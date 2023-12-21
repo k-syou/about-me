@@ -7,6 +7,7 @@ type experienceInfo = {
   str_companyName: string
   d_startTenure: Date
   d_endTenure: Date
+  str_logoFile: string
   str_descript: string
   arr_works: Array<string>
 }
@@ -19,12 +20,13 @@ const Experience = ({str_id}: Props) => {
         str_companyName : '코코아소프트',
         d_startTenure : new Date(2022,5),
         d_endTenure : new Date(9999,1),
+        str_logoFile : '코코아소프트_로고.webp',
         str_descript : 'UiPath RPA 개발자',
         arr_works : [
           'UiPath 툴을 사용한 RPA 개발',
-          '웅진푸드 RPA 도입 프로젝트 개발 참여',
-          'Spigen RPA 운영 담당',
-          '교육'
+          'RPA 초급, 중급 교육 파트 담당',
+          '온라인 강의 제작',
+          '기존 RPA 운영',
         ]
       }
     ]
@@ -68,6 +70,9 @@ const Experience = ({str_id}: Props) => {
                 <div className="exp-header">
                   <div className="company-name">
                     {value.str_companyName}
+                  </div>
+                  <div className="logo">
+                    <img src={value.str_logoFile} alt="cocoasoft_logo" />
                   </div>
                   <div className="tenure">
                     {str_tenure}
