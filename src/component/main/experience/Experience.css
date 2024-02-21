@@ -35,8 +35,12 @@
 
 #experience .experience-box .experience-item .works{
   list-style-type: circle;
-  font-size: 20px;
+  font-size: 17px;
 }
 #experience .experience-box .experience-item .works .work-item{
-  margin-bottom: 5px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+#experience .experience-box .experience-item .works .work-item:last-child{
+  margin-bottom: 0px;
 }

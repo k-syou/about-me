@@ -54,8 +54,6 @@ function App() {
   return (
     <div className="App">
       <TopButton moveMenu={moveMenu}/>
-      <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT/fonts/static/woff2/SUIT.css" rel="stylesheet"></link>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
       {renderHeader()}
       {renderMain()}
       <Footer />

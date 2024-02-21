@@ -23,10 +23,12 @@ const Experience = ({str_id}: Props) => {
         str_logoFile : '코코아소프트_로고.webp',
         str_descript : 'UiPath RPA 개발자',
         arr_works : [
-          'UiPath 툴을 사용한 RPA 개발',
-          'RPA 초급, 중급 교육 파트 담당',
-          '온라인 강의 제작',
-          '기존 RPA 운영',
+          'UiPath 툴을 사용한 RPA 개발 프로젝트 참여',
+          'RPA 초급, 중급 교육 파트 담당하여 기업 대상 시민개발자 양성',
+          'UiPath 온라인 강의 제작',
+          'RPA 과제 운영 및 개발 진행',
+          'RPA 솔루션별 장/단점 분석 및 파악',
+          
         ]
       }
     ]
